@@ -1,0 +1,54 @@
+﻿<Window x:Class="Clipcloud.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:wpfspark="clr-namespace:WPFSpark;assembly=WPFSpark"
+        Title="MainWindow" 
+        Height="350" 
+        Width="525" 
+        AllowsTransparency="True" 
+        WindowStyle="None" 
+        WindowStartupLocation="CenterScreen" 
+        >
+    <Window.Background>
+        <SolidColorBrush Opacity="1.0" Color="BlueViolet"/>
+    </Window.Background>
+    <Grid>
+        <Grid.RowDefinitions>
+            
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Border Grid.Row="1"
+                BorderBrush="White"
+                BorderThickness="0,0,0,0"
+                Background="Transparent">
+            <wpfspark:FluidProgressBar HorizontalAlignment="Stretch"
+                                       VerticalAlignment="Stretch"
+                                       Foreground="Orange"
+                                       DotWidth="6"
+                                       DotHeight="6"
+                                       DotRadiusX="0"
+                                       DotRadiusY="0"
+                                       Oscillate="False"
+                                       TotalDuration="00:00:03.25"
+                                       ReverseDuration="00:00:02.15"
+                                       KeyFrameA="0.3"
+                                       KeyFrameB="0.6"
+                                       DurationA="00:00:00.25"
+                                       DurationB="00:00:01.25"
+                                       DurationC="00:00:00.25"
+                                       Delay="00:00:00.095"></wpfspark:FluidProgressBar>
+        </Border>
+
+        <TextBlock Grid.Row="0"
+                   FontFamily="Arial"
+                   Foreground="White"
+                   Text="Clip Cloud"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   FontSize="100"
+                   Margin="10,10"></TextBlock>
+
+       
+    </Grid>
+</Window>
