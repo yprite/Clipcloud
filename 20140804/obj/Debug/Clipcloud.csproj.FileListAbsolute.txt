@@ -24,3 +24,5 @@ C:\Users\gim-yonghun\documents\visual studio 2013\Projects\ClipCloud\Clipcloud\b
 C:\Users\gim-yonghun\documents\visual studio 2013\Projects\ClipCloud\Clipcloud\bin\Debug\ko\System.Windows.Interactivity.resources.dll
 C:\Users\gim-yonghun\documents\visual studio 2013\Projects\ClipCloud\Clipcloud\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
 C:\Users\gim-yonghun\documents\visual studio 2013\Projects\ClipCloud\Clipcloud\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\gim-yonghun\documents\visual studio 2013\Projects\ClipCloud\Clipcloud\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\gim-yonghun\documents\visual studio 2013\Projects\ClipCloud\Clipcloud\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
