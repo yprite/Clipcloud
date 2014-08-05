@@ -1,0 +1,21 @@
+﻿<Application
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="Clipcloud.App"
+    
+	StartupUri="ClipboardWindow.xaml">
+	<Application.Resources>
+        <!-- 응용 프로그램 수준의 리소스를 여기에 정의해야 합니다.
+            클래스 이름은 앞에 대문자와 그리고 폼에 대해 정의한다.
+            ex) MainWindow : Main 이라는 이름과 Window라는 폼 형식
+            <Logic>
+            LoadingWindow -> MainWindow -> SidebarWindow (독바 윈도우)
+                                        -> ClipboardWindow (클립보드 윈도우)
+                                        -> Server (통신 클래스)
+                                        -> SettingWindow (환경설정 윈도우)
+                                        -> Tray (Tray 관리 클래스)
+                                        -> File Manage (Data 관리 클래스)
+        -->
+       
+    </Application.Resources>
+</Application>
